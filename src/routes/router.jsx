@@ -1,15 +1,12 @@
 import MainOnlinePaymentPage from '../pages/MainOnlinePaymentPage';
-import { lazy } from 'react';
 import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
 } from 'react-router-dom';
-
-// eslint-disable-next-line react-refresh/only-export-components
-const App = lazy(() => import('../App'));
 import NotFound from '../pages/NotFound';
 import PayementSuccessPage from '../pages/PayementSuccessPage';
+import App from '../App';
 
 export const router = createBrowserRouter(
   createRoutesFromElements(

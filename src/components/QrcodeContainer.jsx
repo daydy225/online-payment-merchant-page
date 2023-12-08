@@ -7,9 +7,9 @@ const QrcodeContainer = () => {
         size={256}
         style={{
           display: 'block',
-          width: '30%',
+          width: '40%',
           margin: 'auto',
-          height: '30%',
+          height: '40%',
           padding: '1rem',
           borderRadius: '0.5rem',
           border: '3px solid #e5e5e5',
